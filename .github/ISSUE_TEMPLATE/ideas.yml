@@ -1,5 +1,8 @@
 name: Idea
 description: Share an idea
+labels: ["idea"]
+assignees: 
+  - rahul101001000
 body: 
   - type: markdown
     attributes:
