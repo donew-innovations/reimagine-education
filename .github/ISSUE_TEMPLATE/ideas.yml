@@ -1,0 +1,15 @@
+name: Idea
+description: Share an idea
+body: 
+  - type: markdown
+    attributes:
+      label: Idea title
+      description: "What is a one line summary of your idea?"
+  - type: markdown
+    attributes:
+      label: Beneficiary
+      description: "Who will benefit from your idea?"
+  - type: markdown
+    attributes:
+      label: Description
+      description: "What happens today and what will happen tomorrow after your idea is implemented?"
