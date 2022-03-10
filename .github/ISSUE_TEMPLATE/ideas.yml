@@ -4,15 +4,19 @@ labels: ["idea"]
 assignees: 
   - rahul101001000
 body: 
-  - type: markdown
+  - type: input
     attributes:
       label: Idea title
       description: "What is a one line summary of your idea?"
-  - type: markdown
+    validations:
+      required: true
+  - type: textarea
     attributes:
       label: Beneficiary
       description: "Who will benefit from your idea?"
-  - type: markdown
+    validations:
+      required: true
+  - type: textarea
     attributes:
       label: Description
       description: "What happens today and what will happen tomorrow after your idea is implemented?"
